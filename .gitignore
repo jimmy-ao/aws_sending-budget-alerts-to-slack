@@ -35,3 +35,19 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore backend hcl configuration file
+backend.hcl
+
+# uv
+# Ignore .env file
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+**/.DS_Store
